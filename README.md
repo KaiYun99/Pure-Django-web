@@ -7,13 +7,13 @@ boiler template for Pure django application
 
 To clone and get started
 1. Navigate to desired directory 
-2. python virtualenv "pyenv"
-3. cd pyenv
-4. cd Scripts
-5. activate
-6. cd..   (to pyenv directory)
-7. git clone https://github.com/KaiYun99/Pure-Django-web.git
-8. cd Pure-Django-web
-9. pip install Django   (or pip install -r requirements.txt if any)
-10. cd backend
-11. python manage.py runserver
+2. git clone https://github.com/KaiYun99/Pure-Django-web.git
+3. cd Pure-Django-web
+4. python -m virtualenv "pyenv"
+6. cd pyenv
+7. cd Scripts
+8. activate
+9. cd..   (to Pure-django-web directory)
+12. pip install Django   (or pip install -r requirements.txt if any)
+13. cd backend
+14. python manage.py runserver
